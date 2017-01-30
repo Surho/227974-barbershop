@@ -20,3 +20,128 @@ h2 {
   font-weight: 700;
   font-family: 'PT Sans Narrow', sans-serif;
 }
+
+.container {
+  width:940px;
+  padding:0 10px;
+  margin:0 auto;
+}
+.catalog-header {
+  min-height:70px;
+  margin-bottom:54px;
+}
+
+.catalog-header-layout {
+  display:flex;
+  justify-content:space-between;
+}
+.catalog-navigation {
+  min-height:70px;
+  width:790px;
+}
+.catalog-navigation > * {
+  display:inline-block;
+}
+.user-block {
+  min-height:70px;
+  width:140px;
+}
+.catalog-content {
+  margin-bottom:52px;
+}
+.breadcrumbs {
+  margin-bottom:56px;
+}
+.breadcrumbs li {
+  display:inline-block;
+}
+main h1 {
+  margin-bottom:22px;
+}
+.catalog-content .catalog-content-layout{
+  display:flex;
+  justify-content: space-between;
+}
+.catalog-content .filter {
+  width:220px;
+}
+.catalog-content .main-goods {
+  width:700px;
+}
+.catalog-content .main-goods-layout {
+  display:flex;
+  flex-wrap:wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-content:flex-start;
+}
+.main-goods .goods-item {
+  width:220px;
+  min-height:287px;
+  margin-bottom:20px;
+}
+
+.main-goods .main-goods-layout {
+  margin-bottom:25px;
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.footer .footer-layout {
+  display:flex;
+}
+.footer .footer-contacts {
+  width:320px;
+  margin-right:70px;
+}
+.footer .footer-social {
+  width:160px;
+}
+.footer .footer-copyright {
+  width:160px;
+  margin-left:auto;
+}
+
+/*catalog-item.html*/
+main .catalog-item-layout {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:50px;
+}
+.catalog-item-layout .photo {
+  width:460px;
+}
+.catalog-item-layout .description {
+  width:400px;
+}
+.photo .photo-main{
+  margin-bottom:20px;
+}
+.photo .photo-preview {
+  display:flex;
+  justify-content: space-between;
+}
+.description .description-additional {
+  margin-bottom:35px;
+}
+.description .description-buy {
+  margin-bottom:67px;
+}
+
+.catalog-header,
+main > *,
+footer {
+  background-color:rgba(35,183,112,0.5);
+}
+
+.catalog-header .container > *,
+.catalog-content .main-goods-layout > *,
+.filter,
+.main-pages,
+.footer-layout > *,
+.description > *,
+.photo > *  {
+  background-color:rgba(208,166,53,0.5);
+  outline:2px solid rgba(208,166,53,1);
+}
